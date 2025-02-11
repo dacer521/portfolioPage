@@ -1,0 +1,244 @@
+html {
+	font-family: "Alegreya Sans", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	background-color: #244855;
+	color: white;
+}
+button {
+	background-color: #d21d1d;
+	border-radius: 1rem;
+
+}
+a { 
+	color: white;
+}
+
+.logo {
+	border-radius: 360rem;
+}
+
+.center {
+	top: 0;
+	width: 100%;
+	display: grid;
+	place-content: center;
+	margin-top: -20rem;
+	text-align: center;
+}
+	#abMe {
+		display: table-cell;
+		vertical-align: middle;
+	}
+	
+
+	
+  #navbar {
+	display: flex;
+	justify-content: center; 
+	align-items: center; 
+	position: fixed;
+	transition: top 0.3s; 
+	gap: 1rem;
+		
+  }
+
+  #navbar>*>*:not(p) {
+	border: #041d26 solid 10px;
+	/* border-radius: 6rem; */
+  }
+
+  nav>div:not(div:first-child):before {
+	content: "•";
+	margin-right: 1rem;
+  }
+  
+  .logo {
+	width: 8rem;
+	height: 8rem;
+  }
+  
+
+  
+  #navbar nav button {
+	background-color: #ff6d00;
+
+	padding: 1rem 2rem;
+  }
+  
+  #navbar nav button a {
+	color: white;
+	text-decoration: none;
+  }
+  
+  #navbar nav button:hover {
+	background-color: #ff8500;
+	/* Darker shade of the button color on hover */
+  }
+
+
+:root {
+    --color: #244855;
+  }
+
+  body {
+    margin: 0;
+    font-family: Poppins, sans-serif;
+  }
+  .parallax-container>h1, .parallax-container>h4 {
+	 mix-blend-mode: difference;
+  }
+
+  .parallax-container>h1{
+	font-size: 10rem;
+  }
+
+  .parallax-container>h4 {
+	font-size: 5rem;
+  }
+  .parallax-container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+	color: white;
+    align-items: center;
+    justify-content: center;
+  
+    /*  this is where the magic happens:  */
+    background-attachment: fixed;
+    background-image: url("https://img.freepik.com/free-photo/horizontal-shot-calm-sea-crazy-cloudy-sky-evening_181624-5483.jpg?t=st=1739214402~exp=1739218002~hmac=2debf46d512f66d06a871fb9ae96c356e90621d9f07da0a1e0439758d374fefb&w=1800");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    row-gap: 4rem;
+  
+    text-align: center;
+  }
+  
+  .buffer {
+    width: 100%;
+    min-height: 60vh;
+    background-color: var(--color);
+  }
+  
+  .parallax-container2 {
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+    padding: 6rem 0;
+	background-image: url("https://img.goodfon.com/wallpaper/nbig/6/78/kod-dvoichnyi-kod-nuli-edinitsy-programmirovanie-binarnyi.webp");
+	gap: 1.6em;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+	color: white;
+  }
+  
+  p {
+    max-width: 52ch;
+    padding: 1em;
+    line-height: 1.5;
+	color: white;
+  }
+
+  h4 {
+	color: white;
+  }
+  
+  a {
+    display: inline-block;
+    padding: 1em 3.5em;
+    border-radius: 0.3em;
+    color: white;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  h3 {
+    margin-top: 1em;
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+  
+  .card {
+    display: flex;
+    max-height: 1200px;
+
+	height: 600px;
+	min-height: 600px;
+
+    flex-direction: column;
+    align-items: center;
+  
+    padding-bottom: 1rem;
+    border-radius: 0.5em;
+  
+    background-color: #244855;
+    box-shadow: 0 29px 38px -15px rgb(0 0 0 / 43%);
+  }
+  
+  .card-img {
+    width: 100%;
+	max-height: 400px;
+	min-height: 200px;
+    height: 50%;
+    border-radius: 0.3em;
+    background-position: center;
+    background-size: cover;
+  }
+
+  #me {
+	width: 100%;
+    height: 200px;
+	height: 400px; 
+    border-radius: 0.3em;
+    background-position: center;
+    background-size: cover;
+	background-image: url("images/image.PNG");
+  }
+  
+  .card:nth-of-type(1) .card-img {
+	background-image: url("images/minuteman.jpg");
+}
+  
+  .card:nth-of-type(2) .card-img {
+    background-image: url("https://miro.medium.com/v2/resize:fit:720/format:webp/1*GRljCZx9fe_t_4vL_1imAQ.png");
+  }
+  
+  .card:nth-of-type(3) .card-img {
+    background-image: url("../images/mockWorld.png");
+  }
+  
+  .card:nth-of-type(4) .card-img {
+    background-image: url("https://i.pinimg.com/originals/6f/7a/43/6f7a43afaa6992391e51b7798881c845.png");
+  }
+ 
+
+  
+  @media only screen and (max-device-width: 1366px) {
+    .parallax-container {
+      background-attachment: scroll;
+    }
+  } 
+
+  @media screen and (min-width: 1200px) {
+	.card {
+	  height: 600px; /* Adjust this value as needed */
+	  min-height: 600px;
+	}
+	#me {
+	  height: 400px; /* Adjust to your liking */
+	}
+  }        
+
+  @media screen and (max-width: 600px) {
+	.card {
+	  transform: scale(1.1);      /* Scale up by 10% */
+	  transform-origin: center;   /* Scale from the center */
+	}
+  }
