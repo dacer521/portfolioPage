@@ -116,7 +116,6 @@ a {
     background-attachment: fixed;
     background-image: url("images/background.JPG");
     background-position: center;
-	background-size: contain;
     background-size: cover;
     color: white;
     row-gap: 4rem;
