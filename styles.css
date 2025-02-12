@@ -114,8 +114,9 @@ a {
   
     /*  this is where the magic happens:  */
     background-attachment: fixed;
-    background-image: url("https://img.freepik.com/free-photo/horizontal-shot-calm-sea-crazy-cloudy-sky-evening_181624-5483.jpg?t=st=1739214402~exp=1739218002~hmac=2debf46d512f66d06a871fb9ae96c356e90621d9f07da0a1e0439758d374fefb&w=1800");
+    background-image: url("images/background.JPG");
     background-position: center;
+	background-size: contain;
     background-size: cover;
     color: white;
     row-gap: 4rem;
