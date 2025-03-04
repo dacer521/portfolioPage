@@ -1,0 +1,22 @@
+/* #IDE-container {
+	justify-content: center;
+    width: 100%;
+    height: 100%;
+  } */
+  #frame {
+    position: absolute;
+    left: 50vw;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    max-height: 50%;
+}
+  
+
+
+@media only screen and (max-device-height: 500px) {
+    
+    #frame {
+        margin-top: 3rem;
+    }
+  }
